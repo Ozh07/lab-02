@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 import java.io.FileWriter;
 
 public class Logger {
+//ers
     DateTimeFormatter myFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy-HH-mm-ss");
     String currentDateTimeString = LocalDateTime.now().format(myFormatter);
     private final String logFile = currentDateTimeString + ".txt";
